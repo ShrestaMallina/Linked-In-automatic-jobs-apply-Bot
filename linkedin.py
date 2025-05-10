@@ -32,8 +32,8 @@ while True:
     email = driver.find_element(By.XPATH, value='//*[@id="base-sign-in-modal_session_key"]')
     password = driver.find_element(By.XPATH, value='//*[@id="base-sign-in-modal_session_password"]')
     sign_up = driver.find_element(By.XPATH, value='//*[@id="base-sign-in-modal"]/div/section/div/div/form/div[2]/button')
-    email.send_keys("shrestamallina.s@gmail.com")
-    password.send_keys("shre$1a45")
+    email.send_keys("your gamil.com")
+    password.send_keys("Linkedin password")
     sign_up.click()
 
     driver.implicitly_wait(15)
